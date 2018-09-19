@@ -2,10 +2,38 @@
   width: 590px;
   position: absolute;
   top: 11vh;
-  }
+}
+
+#svgImg1 {
+  width: 590px;
+  position: absolute;
+  top: 16.5vh;
+}
 
 #mainImg {
   width:800px;
 }
 
+body{
+  margin: 0 auto;
+}
+
+#mainImg {
+  animation: blackout 4s infinite;
+}
+
+@keyframes blackout {
+  25% {
+  opacity: 0.2;
+  }
+  50% {
+    opacity: 0.3;
+    }
+  75%{
+    opacity: 0.4;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 

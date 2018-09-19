@@ -12,18 +12,41 @@
         .cls-2 {
             stroke: #2cffd6;
             stroke-width: 1px;
-            stroke-dasharray:400;
+            stroke-dasharray:100;
             stroke-dashoffset: 0;
             animation: testmove 6s infinite;
+            
         }
 
         @keyframes testmove {
 
-            from {
-            stroke-dashoffset: 400;
+            0% {
+            stroke-dashoffset: 100;
+            stroke: #88d8b0;
             }
-            to{
+            25% {
+            stroke-dashoffset: 50;
+            stroke: #ff6f69;
+            }
+            50% {
+            stroke-dashoffset: 100;
+            stroke: #88d8b0;
+            }
+            51% {
+            stroke-dashoffset: 100;
+            stroke: #88d8b0;
+            }
+            75% {
+            stroke-dashoffset: 50;
+            stroke: #ff6f69;
+            }
+            90%{
             stroke-dashoffset: 0;
+            stroke: #ffeead;
+            }
+            100%{
+            stroke-dashoffset: 100;
+            stroke: #88d8b0;
             }
         }
 </style>
