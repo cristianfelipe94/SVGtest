@@ -1,21 +1,27 @@
+#wrapper {
+  background-color: #340517;
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden; }
+
 #svgImg {
   width: 590px;
   position: absolute;
-  top: 11vh; }
+  top: 5vh;
+  margin: 0 auto; }
 
 #svgImg1 {
   width: 590px;
   position: absolute;
-  top: 16.5vh; }
-
-#mainImg {
-  width: 800px; }
-
-body {
+  top: 7.5vh;
   margin: 0 auto; }
 
 #mainImg {
+  width: 800px;
   animation: blackout 4s infinite; }
+
+body {
+  margin: 0 auto; }
 
 @keyframes blackout {
   25% {
@@ -26,5 +32,12 @@ body {
     opacity: 0.4; }
   100% {
     opacity: 1; } }
+/*Responsive*/
+@media only screen and (max-width: 300px) {
+  #svgImg1 {
+    top: 17vh; }
+
+  #svgImg {
+    top: 11vh; } }
 
 /*# sourceMappingURL=style.css.map */
