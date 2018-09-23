@@ -1,0 +1,27 @@
+#wrapper {
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Cinzel Decorative';
+  @extend %mainWidth;
+  @extend %marginDefault;
+}
+
+#imgWrapper {
+   position: relative;
+}
+
+#middleName{
+  @extend %sharedtext;
+}
+
+#firstName{
+  @extend %sharedtext;
+}
+
+#svgImg {
+  @extend %sharedposition;
+}
+
+#svgImg1 {
+  @extend %sharedposition;
+}

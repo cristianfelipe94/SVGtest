@@ -1,0 +1,22 @@
+%marginDefault {
+    margin: 4vh auto;
+}
+
+%sharedposition {
+    margin: 4vh auto;
+    position: absolute;
+    width: 590px;
+}
+
+%mainWidth {
+    width: 800px;
+}
+
+%sharedtext {
+    position: absolute;
+    color: white;
+    writing-mode: vertical-lr;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+}

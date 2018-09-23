@@ -1,0 +1,47 @@
+/*Animation*/
+
+#mainImg {
+    animation: blackout 6s infinite;
+    @extend %mainWidth;
+}
+  
+#imgWrapper{
+    border: 1px solid white;
+    @extend %mainWidth;
+}
+  
+@keyframes blackout {
+    1% {
+      opacity: 0.9;
+    }
+    5% {
+      opacity: 0.8;
+    }
+    15% {
+      opacity: 0.7;
+      }
+    25% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.2;
+      }
+    75%{
+      opacity: 0;
+    }
+    90%{
+      opacity: 0;
+    }
+    91%{
+      opacity: 0.2;
+    }
+    95%{
+      opacity: 0.5;
+    }
+    98%{
+      opacity: 0.8;
+    }
+    100%{
+      opacity: 0.9;
+    }
+}
