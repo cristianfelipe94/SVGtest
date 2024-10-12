@@ -31,10 +31,10 @@
 /*Responsive*/
 @media only screen and (min-width: 800px) {
   #svgImg1 {
-    top: 0vh; }
+    top: 15vh; }
 
   #svgImg {
-    top: 0vh; }
+    top: 8.5vh; }
 
   #middleName {
     bottom: 2px;
