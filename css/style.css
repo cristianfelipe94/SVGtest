@@ -47,8 +47,8 @@
     font-size: 2em; } }
 @media only screen and (max-width: 800px) {
   #svgImg1 {
-    top: 50px;
-    left: 0px; }
+    top: 80px;
+    left: -5px; }
 
   #svgImg {
     top: 50px;
