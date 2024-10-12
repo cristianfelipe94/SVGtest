@@ -73,15 +73,15 @@
   position: relative; }
 
 #wrapper {
-  margin: 4vh auto; }
+  margin: 0 auto; }
 
 #svgImg, #svgImg1 {
-  margin: 4vh auto;
+  margin: 0 auto;
   position: absolute;
-  width: 60vw; }
+  width: 400px; }
 
 #mainImg, #imgWrapper, #wrapper {
-  width: 100vw; }
+  width: 400px; }
 
 #middleName, #firstName {
   position: absolute;
