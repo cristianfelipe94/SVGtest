@@ -91,10 +91,10 @@
 #svgImg, #svgImg1 {
   margin: 4vh auto;
   position: absolute;
-  width: 590px; }
+  width: 80vw; }
 
 #mainImg, #imgWrapper, #wrapper {
-  width: 800px; }
+  width: 100vw; }
 
 #middleName, #firstName {
   position: absolute;
