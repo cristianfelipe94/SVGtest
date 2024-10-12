@@ -48,11 +48,11 @@
 @media only screen and (max-width: 800px) {
   #svgImg1 {
     top: 30px;
-    left: -10px; }
+    left: 10px; }
 
   #svgImg {
-    top: 0vh;
-    left: -10px; }
+    top: 30px;
+    left: 10px; }
 
   #middleName {
     bottom: 2px;
