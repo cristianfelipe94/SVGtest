@@ -61,22 +61,7 @@
     bottom: 88px;
     left: 717px;
     font-size: 2em; } }
-@media only screen and (max-width: 450px) {
-  #svgImg1 {
-    top: 108px; }
 
-  #svgImg {
-    top: 61px; }
-
-  #middleName {
-    bottom: 2px;
-    left: 742px;
-    font-size: 3em; }
-
-  #firstName {
-    bottom: 88px;
-    left: 717px;
-    font-size: 2em; } }
 #wrapper {
   overflow: hidden;
   background-color: black;
