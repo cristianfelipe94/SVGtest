@@ -47,12 +47,12 @@
     font-size: 2em; } }
 @media only screen and (max-width: 800px) {
   #svgImg1 {
-    top: 30px;
-    left: 10px; }
+    top: 80px;
+    left: 0px; }
 
   #svgImg {
-    top: 30px;
-    left: 10px; }
+    top: 80px;
+    left: 0px; }
 
   #middleName {
     bottom: 2px;
