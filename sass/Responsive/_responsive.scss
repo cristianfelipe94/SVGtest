@@ -1,59 +1,40 @@
-/*Responsive*/
+/* Estilos comunes fuera de las media queries */
+#middleName {
+    bottom: 2px;
+    left: 742px;
+    font-size: 3em;
+}
 
+#firstName {
+    bottom: 88px;
+    left: 717px;
+    font-size: 2em;
+}
 
-@media only screen and (min-width: 800px){
+/* Responsive */
+@media only screen and (min-width: 800px) {
     #svgImg1 {
-        top: 10vh;
+        top: 15vh;
     }
     #svgImg {
         top: 8.5vh;
     }
-    #middleName {
-        bottom: 2px;
-        left: 742px;
-        font-size: 3em;
-    }
-    #firstName{
-        bottom: 88px;
-        left: 717px;
-        font-size: 2em;
-    }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
     #svgImg1 {
         top: 19.5vh;
     }
     #svgImg {
         top: 11.5vh;
     }
-    #middleName {
-        bottom: 2px;
-        left: 742px;
-        font-size: 3em;
-    }
-    #firstName{
-        bottom: 88px;
-        left: 717px;
-        font-size: 2em;
-    }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 450px) {
     #svgImg1 {
         top: 108px;
     }
     #svgImg {
         top: 61px;
-    }
-    #middleName {
-        bottom: 2px;
-        left: 742px;
-        font-size: 3em;
-    }
-    #firstName{
-        bottom: 88px;
-        left: 717px;
-        font-size: 2em;
     }
 }
