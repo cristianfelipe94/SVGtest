@@ -56,12 +56,12 @@
 
   #middleName {
     bottom: 2px;
-    left: 0vw;
+    left: 100%;
     font-size: 3em; }
 
   #firstName {
     bottom: 88px;
-    left: 0vw;
+    left: 100%;
     font-size: 2em; } }
 
 #wrapper {
